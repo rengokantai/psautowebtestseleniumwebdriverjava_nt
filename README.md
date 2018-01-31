@@ -24,3 +24,18 @@ WebElement sf = sriver.findElement(By.id(""));
 sf.sandKeys("rengo");
 sf.submit();
 ```
+
+
+### Getting Table Data
+```
+getText()
+```
+
+### Using the Explicit Wait
+```
+driver manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+```
+explicit
+```
+WebSriverWait wait = new WebDriverWait(driver,10);
+```
