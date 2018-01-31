@@ -40,3 +40,9 @@ explicit
 WebSriverWait wait = new WebDriverWait(driver,10);
 wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("Info")));
 ```
+
+## 6. Using Selenium Server
+### Starting Selenium Server
+```
+java -jar selenium-server-standalone-3.4.0.jar
+```
