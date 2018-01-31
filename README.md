@@ -46,3 +46,18 @@ wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("Info")));
 ```
 java -jar selenium-server-standalone-3.4.0.jar
 ```
+
+### Running a test
+```
+WebDriver driver = new RemoteWebDrivwe(new URL(""),DesiredCapabilities.chrome());
+driver.get();
+```
+### Setting up Grid
+```
+java -jar selenium-server-standalone-3.4.0.jar -role node -hub http://1.2.3.4:4444/grid/register
+```
+### 2nd node Setop
+```
+java -jar selenium-server-standalone-3.4.0.jar -role node -hub http://1.2.3.4:4444/grid/register -port 5556
+```
+
