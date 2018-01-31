@@ -38,4 +38,5 @@ driver manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 explicit
 ```
 WebSriverWait wait = new WebDriverWait(driver,10);
+wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("Info")));
 ```
