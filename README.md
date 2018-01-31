@@ -17,3 +17,10 @@ or set
 ```
 GECKO_PATH
 ```
+
+### A More Complex Script
+```
+WebElement sf = sriver.findElement(By.id(""));
+sf.sandKeys("rengo");
+sf.submit();
+```
